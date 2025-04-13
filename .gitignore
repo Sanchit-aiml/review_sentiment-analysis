@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 __pycache__/
-*.pkl
+#*.pkl
 model_comparison.png
 *.json
 =======
