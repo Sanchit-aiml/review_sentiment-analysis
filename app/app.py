@@ -9,7 +9,11 @@ def clean_text(text):
     text = text.lower()
     return text
 
-model = pickle.load(open("C:/Users/Sanchit/OneDrive/Desktop/Projects/review_sentiment_analysis_project/models/review sentiment_classifier_model.pkl", "rb"))
+import os
+
+model_path = os.path.join("models", "review sentiment_classifier_model.pkl")
+model = pickle.load(open(model_path, "rb"))
+
 vectorizer = pickle.load(open("C:/Users/Sanchit/OneDrive/Desktop/Projects/review_sentiment_analysis_project/models/review sentiment_classifier_vectorizer.pkl","rb"))
 
 st.title("Amazon Review Sentiment Analyzer")
