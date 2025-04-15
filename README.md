@@ -112,6 +112,9 @@ streamlit run app.py
 
 Paste your review and click “Analyze” to see the predicted sentiment.
 
+
+the app weblink is : https://reviewsentiment-analysis-aiwkj43nsukpuwz69vnndz.streamlit.app/
+
 ---
 
 ## 🧹 Preprocessing Steps
